@@ -18,7 +18,7 @@ module.exports = {
         PORT: 3306,
         USER: 'sql10507878',
         PASSWORD: 'JgPQlrx6pB',
-        DB: "auth_db",
+        DB: "sql10507878",
         dialect: "mysql",
         pool: {
             max: 5,
