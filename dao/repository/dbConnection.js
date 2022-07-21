@@ -5,7 +5,7 @@ const {Sequelize, DataTypes} = require("sequelize");
 const connection = new Sequelize(
     config.DB,
     config.USER,
-    config.PASSWORD,
+    process.env.DB_PASSWORD,
     {
         host: config.HOST,
         dialect: config.dialect,
